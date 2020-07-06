@@ -1,0 +1,17 @@
+This tool is developed for testing SPI on ADLINK px30
+
+It can be used elsewhere also if we have spi device entry and w25q64 SPI fixure.
+
+Building:
+	To build this binaries
+		make
+
+Usage:
+	adlink_spi_tool <mraa spi bus no>
+
+E.g.
+	sudo adlink_spi_tool 0
+here,
+
+	0 is MRAA SPI bus no
+it will show menu remaing option.
